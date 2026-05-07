@@ -4,8 +4,12 @@
 
 * { box-sizing: border-box; }
 
+body {
+  background-color: #0a0a0f;
+  color: #e8e8f0;
+  font-family: 'DM Sans', sans-serif;
+}
+
 ::-webkit-scrollbar { width: 6px; }
 ::-webkit-scrollbar-track { background: #13131f; }
 ::-webkit-scrollbar-thumb { background: #2a2a40; border-radius: 3px; }
-
-::selection { background: rgba(167, 139, 250, 0.3); }
