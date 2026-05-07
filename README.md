@@ -5,7 +5,6 @@ AI-powered code review tool built with Next.js and Claude. Paste any code and ge
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
 ![Claude API](https://img.shields.io/badge/Claude_API-8A2BE2?style=for-the-badge)
-![License](https://img.shields.io/github/license/rahmaaismail/ai-code-reviewer)
 
 ## Live Demo
 [ai-code-reviewer-psi-flame.vercel.app](https://ai-code-reviewer-psi-flame.vercel.app)
