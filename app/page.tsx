@@ -1,5 +1,4 @@
 "use client";
-
 import React from "react";
 import { useState } from "react";
 import CodeInput from "@/components/CodeInput";
@@ -35,7 +34,6 @@ export default function Home() {
 
   return (
     <main className="min-h-screen">
-      {/* Header */}
       <header className="border-b border-[#1f1f35] px-6 py-4 flex items-center justify-between">
         <div className="flex items-center gap-3">
           <span className="text-2xl">🔍</span>
@@ -51,7 +49,6 @@ export default function Home() {
       </header>
 
       <div className="max-w-7xl mx-auto px-6 py-10">
-        {/* Hero */}
         <div className="text-center mb-12">
           <h1 className="font-mono text-4xl font-bold mb-3 bg-gradient-to-r from-violet-400 via-sky-400 to-emerald-400 bg-clip-text text-transparent">
             Instant Code Review
@@ -61,17 +58,14 @@ export default function Home() {
           </p>
         </div>
 
-        {/* Input */}
         <CodeInput onSubmit={handleReview} loading={loading} />
 
-        {/* Error */}
         {error && (
           <div className="mt-6 p-4 rounded-xl bg-red-500/10 border border-red-500/30 text-red-400 text-sm">
             {error}
           </div>
         )}
 
-        {/* Loading */}
         {loading && (
           <div className="mt-12 text-center">
             <div className="inline-flex items-center gap-3 text-[#6b7280]">
@@ -81,7 +75,6 @@ export default function Home() {
           </div>
         )}
 
-        {/* Results */}
         {result && <ResultsPanel result={result} />}
       </div>
     </main>
