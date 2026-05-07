@@ -39,7 +39,7 @@ export default function Home() {
           <span className="text-2xl">🔍</span>
           <span className="font-mono font-bold text-lg tracking-tight">AI Code Reviewer</span>
         </div>
-        
+        <a
           href="https://github.com/rahmaaismail/ai-code-reviewer"
           target="_blank"
           className="text-sm text-[#6b7280] hover:text-[#e8e8f0] transition-colors font-mono"
