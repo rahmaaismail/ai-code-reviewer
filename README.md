@@ -37,5 +37,8 @@ Open http://localhost:3000
 3. Add `ANTHROPIC_API_KEY` in Environment Variables
 4. Deploy ✅
 
+> **Note:** Live demo requires an Anthropic API key with available credits. 
+> To run locally, add your own key to `.env.local`.
+
 ## License
 MIT
